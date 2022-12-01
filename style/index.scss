@@ -1,0 +1,12 @@
+@import '01-settings/index';
+@import '02-tools/index';
+@import '03-generics/index';
+@import '04-layouts/index';
+@import '05-components/index';
+
+/* Only for demonstration */
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}

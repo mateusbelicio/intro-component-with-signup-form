@@ -1,0 +1,11 @@
+$max-width: 69.375rem;
+$min-width: 23.4375rem;
+$padding: 1.5rem;
+
+.container {
+  margin-inline: auto;
+  width: min($max-width, calc(100% - 2 * $padding));
+  min-width: $min-width;
+}
+
+$box: 1px solid red;
