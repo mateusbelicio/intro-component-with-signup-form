@@ -13,6 +13,7 @@
 
     @include breakpoint(800) {
       grid-auto-flow: column;
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 
@@ -39,6 +40,12 @@
     @include breakpoint(800) {
       text-align: left;
       max-width: 55ch;
+    }
+  }
+
+  &__action {
+    @include breakpoint(800) {
+      width: 100%;
     }
   }
 
