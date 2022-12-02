@@ -67,17 +67,3 @@ form.addEventListener('submit', (e) => {
     }
   });
 });
-
-// FUNCTION: Verify if input field is empty
-//    If empty: show alert
-
-// FUNCTION: Validade email
-//    If invalid: show message 'Looks like this is not an email'
-
-// FUNCTION: show alert
-
-// FUNCTION: listen for submit the form
-//    onSubmit() => show load (add class 'button--loading') =>
-//    => after load => verify if is empty
-
-// On focus out the email => validade email
