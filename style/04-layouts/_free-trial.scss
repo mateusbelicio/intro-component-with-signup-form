@@ -1,0 +1,75 @@
+.free-trial {
+  background-color: $clr-primary-400;
+  background-image: url('../images/bg-intro-mobile.png');
+  height: 100%;
+  text-align: center;
+
+  &__container {
+    display: grid;
+    padding-block: 5.625rem 4rem;
+    place-items: center;
+    gap: 4rem;
+
+    @include breakpoint(800) {
+      grid-auto-flow: column;
+    }
+  }
+
+  &__title {
+    margin-bottom: 1.25rem;
+
+    @include breakpoint(800) {
+      text-align: left;
+      line-height: 1.2;
+      font-size: $fs-800;
+      letter-spacing: 0.03rem;
+    }
+
+    &--highlight {
+      padding: 1.125rem 4rem;
+      background-color: $clr-accent-400;
+      font-size: 1rem;
+      font-weight: $fw-400;
+      border-radius: 0.625rem;
+      box-shadow: 0 0.5rem 0.1rem rgba(0, 0, 0, 0.15);
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  &__description {
+    @include breakpoint(800) {
+      text-align: left;
+      max-width: 55ch;
+    }
+  }
+
+  &__form {
+    background-color: $clr-neutral-100;
+    padding: 1.5rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.5rem 0.1rem rgba(0, 0, 0, 0.15);
+    @include flex(column, center, center, 1.5rem);
+
+    & > *,
+    & .input {
+      width: 100%;
+    }
+  }
+
+  &__terms {
+    font-size: $fs-100;
+    color: $clr-neutral-300;
+    padding-inline: 2rem;
+    margin-top: -0.5rem;
+
+    a:where(:visited, :link) {
+      text-decoration: none;
+      font-weight: $fw-600;
+      color: $clr-primary-400;
+    }
+
+    a:where(:hover, :active) {
+      text-decoration: underline;
+    }
+  }
+}

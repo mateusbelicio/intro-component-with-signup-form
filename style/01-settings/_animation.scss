@@ -9,3 +9,9 @@
     transform: translateY(0%);
   }
 }
+
+@keyframes load {
+  to {
+    transform: rotate(1turn);
+  }
+}

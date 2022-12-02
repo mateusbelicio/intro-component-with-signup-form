@@ -1,0 +1,37 @@
+.button {
+  background-color: $clr-secondary-400;
+  border-radius: 0.5rem;
+  border: none;
+  border-bottom: 5px ridge $clr-secondary-400;
+  color: $clr-neutral-100;
+  cursor: pointer;
+  font-weight: $fw-500;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 0.015rem;
+
+  &:hover {
+    filter: brightness(105%) opacity(80%);
+  }
+
+  &--loading {
+    color: transparent;
+    position: relative;
+
+    &::after {
+      position: absolute;
+      content: '';
+      aspect-ratio: 1 / 1;
+      height: 60%;
+      border: 0.3rem solid $clr-secondary-400;
+      border-top-color: $clr-neutral-100;
+      left: 50%;
+      top: 50%;
+      translate: -50% -50%;
+      animation: load 1s linear 3;
+      border-radius: 50%;
+    }
+  }
+}
