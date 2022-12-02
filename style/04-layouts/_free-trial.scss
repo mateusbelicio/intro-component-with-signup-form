@@ -9,6 +9,7 @@
     padding-block: 5.625rem 4rem;
     place-items: center;
     gap: 4rem;
+    height: 100%;
 
     @include breakpoint(800) {
       grid-auto-flow: column;
@@ -28,8 +29,6 @@
     &--highlight {
       padding: 1.125rem 4rem;
       background-color: $clr-accent-400;
-      font-size: 1rem;
-      font-weight: $fw-400;
       border-radius: 0.625rem;
       box-shadow: 0 0.5rem 0.1rem rgba(0, 0, 0, 0.15);
       margin-bottom: 1.5rem;
@@ -48,7 +47,7 @@
     padding: 1.5rem;
     border-radius: 0.625rem;
     box-shadow: 0 0.5rem 0.1rem rgba(0, 0, 0, 0.15);
-    @include flex(column, center, center, 1.5rem);
+    @include flex(column, center, center, 1rem);
 
     & > *,
     & .input {

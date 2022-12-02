@@ -15,3 +15,55 @@
     transform: rotate(1turn);
   }
 }
+
+@keyframes showUp {
+  0% {
+    background-image: linear-gradient(
+      85deg,
+      hsl(154deg 59% 51%) 0%,
+      hsl(154deg 59% 51%) 32%,
+      hsl(154deg 55% 61%) 50%,
+      hsl(154deg 55% 61%) 51%,
+      hsl(154deg 59% 51%) 69%,
+      hsl(154deg 59% 51%) 100%
+    );
+    transform: translateX(-25%);
+  }
+  20% {
+    background-image: linear-gradient(
+      85deg,
+      hsl(154deg 59% 51%) 0%,
+      hsl(154deg 59% 51%) 32%,
+      hsl(154deg 55% 61%) 50%,
+      hsl(154deg 55% 61%) 51%,
+      hsl(154deg 59% 51%) 69%,
+      hsl(154deg 59% 51%) 100%
+    );
+    transform: translateX(25%);
+  }
+  21% {
+    background-image: linear-gradient(
+      85deg,
+      hsl(154deg 59% 51%) 0%,
+      hsl(154deg 59% 51%) 32%,
+      hsl(154deg 55% 61%) 50%,
+      hsl(154deg 55% 61%) 51%,
+      hsl(154deg 59% 51%) 69%,
+      hsl(154deg 59% 51%) 100%
+    );
+    opacity: 0;
+    transform: translateX(0%);
+  }
+  25% {
+    opacity: 1;
+    background-image: url('../images/icon-ok.svg');
+  }
+  95% {
+    background-image: url('../images/icon-ok.svg');
+    opacity: 1;
+  }
+  100% {
+    background-image: url('../images/icon-ok.svg');
+    opacity: 0;
+  }
+}
