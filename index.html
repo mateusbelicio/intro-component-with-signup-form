@@ -10,6 +10,7 @@
     <title>Frontend Mentor | Intro component with sign up form</title>
 
     <link rel="stylesheet" href="./style/index.css" />
+    <script defer src="./script.js"></script>
   </head>
   <body>
     <main>
@@ -29,52 +30,56 @@
             </h2>
 
             <form novalidate class="free-trial__form | js-form">
-              <label class="relative">
+              <label>
                 <input
                   type="text"
                   class="input | js-input"
                   data-valid="true"
                   placeholder="First Name"
+                  name="firstName"
                   aria-describedby="firstName-alert"
                 />
-                <span id="firstName-alert" class="input__alert" aria-live="polite"></span>
+                <span
+                  id="firstName-alert"
+                  class="input__alert | js-alert"
+                  aria-live="polite"
+                ></span>
               </label>
-              <label class="relative">
+              <label>
                 <input
                   type="text"
                   class="input | js-input"
                   data-valid="true"
                   placeholder="Last Name"
+                  name="lastName"
                   aria-describedby="lastName-alert"
                 />
-                <span id="lastName-alert" class="input__alert" aria-live="polite"></span>
+                <span id="lastName-alert" class="input__alert | js-alert" aria-live="polite"></span>
               </label>
-              <label class="relative">
+              <label>
                 <input
                   type="email"
                   class="input | js-input"
-                  data-valid="false"
+                  data-valid="true"
                   placeholder="Email Address"
+                  name="email"
                   aria-describedby="email-alert"
                 />
-                <span id="email-alert" class="input__alert" aria-live="polite">
-                  Email cannot be empty
-                </span>
+                <span id="email-alert" class="input__alert | js-alert" aria-live="polite"> </span>
               </label>
-              <label class="relative">
+              <label>
                 <input
                   type="password"
                   class="input | js-input"
                   data-valid="true"
                   placeholder="Password"
+                  name="password"
                   aria-describedby="password-alert"
                 />
-                <span id="password-alert" class="input__alert" aria-live="polite"></span>
+                <span id="password-alert" class="input__alert | js-alert" aria-live="polite"></span>
               </label>
 
-              <button class="button button--loading | js-button" type="submit">
-                Claim your free trial
-              </button>
+              <button class="button | js-button" type="submit">Claim your free trial</button>
 
               <p class="free-trial__terms">
                 By clicking the button, you are agreeing to our <a href="#">Terms and Services</a>
