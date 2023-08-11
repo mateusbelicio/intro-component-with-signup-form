@@ -1,21 +1,18 @@
-# Frontend Mentor - Intro component with sign up form solution
-
-![Design preview for the Intro component with sign up form coding challenge](./design/desktop-preview.jpg)
+<div align="center">
+  <img align="right" src="https://www.frontendmentor.io/static/images/logo-mobile.svg" alt="Frontendmentor icon" />
+  <h2 align="left">Frontend Mentor - Intro component with sign up form solution</h2>
+</div>
 
 This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+<!-- ![My Profile](https://img.shields.io/badge/Status-building-blue?style=flat) -->
+![My Profile](https://img.shields.io/badge/Status-finished-green?style=flat)
+&dot;
+[![Status](https://img.shields.io/website?label=Website&down_color=inactive&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fmateusbelicio.github.io/intro-component-with-signup-form)](https://mateusbelicio.github.io/intro-component-with-signup-form) 
+&dot;
+[![My Profile](https://img.shields.io/badge/Profile-Mateus_Belicio-282C2E?style=flat&logo=frontendmentor)](https://www.frontendmentor.io/profile/mateusbelicio)
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-
-## Overview
+---
 
 ### The challenge
 
@@ -31,13 +28,6 @@ Users should be able to:
 
 ![](./design/desktop-result.png)
 
-### Links
-
-- 🔗 [Solution URL](https://github.com/mateusbelicio/intro-component-with-signup-form)
-- 🔗 [Live Site URL](https://mateusbelicio.github.io/intro-component-with-signup-form)
-
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
@@ -51,7 +41,9 @@ Users should be able to:
 
 - [How To Create Accessible Form with Boring Design? ](https://community.codenewbie.org/vanzasetia/how-to-create-accessible-form-with-boring-design-4ab0) - It helped me to improve the accessibility in the form.
 
-## Author
+---
+
+### Author
 
 - Frontend Mentor - [@mateusbelicio](https://www.frontendmentor.io/profile/mateusbelicio)
 - Linkedin - [@mateusbelicio](https://www.linkedin.com/in/mateusbelicio)
